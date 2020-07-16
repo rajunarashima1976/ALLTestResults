@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5810b47d-dcb7-44d3-9bf8-97190c3cfeb8" name="VssAdministrator@WIN-PPU8V6TAP8I 2020-07-06 14:00:33" runUser="WIN-PPU8V6TAP8I\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-07-06T14:00:33.7501276+00:00" queuing="2020-07-06T14:00:33.7501278+00:00" start="2020-07-06T14:00:32.1723402+00:00" finish="2020-07-06T14:00:33.7767326+00:00" />
+  <TestSettings name="default" id="15b134b0-f75a-4d19-8d49-288545190ebb">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-PPU8V6TAP8I_2020-07-06_14_00_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="acf51591-f2b0-4606-86be-48817888b3b4" testId="f888732e-438e-5205-2fa5-7eb027409d12" testName="When_PremiumCustomer_Expect_10PercentDiscount()" computerName="WIN-PPU8V6TAP8I" duration="00:00:00.1515640" startTime="2020-07-06T14:00:33.0000000+00:00" endTime="2020-07-06T14:00:33.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acf51591-f2b0-4606-86be-48817888b3b4">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 135m&#xD;
+  But was:  130&#xD;
+</Message>
+          <StackTrace>   at CustomerOrderService.Tests.CustomerOrderServiceTests.When_PremiumCustomer_Expect_10PercentDiscount() in D:\a\1\s\CustomerOrderService.Tests\CustomerOrderServiceTests.cs:line 50&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="When_PremiumCustomer_Expect_10PercentDiscount()" storage="d:\a\1\s\customerorderservice.tests\bin\release\netcoreapp3.1\customerorderservice.tests.dll" id="f888732e-438e-5205-2fa5-7eb027409d12">
+      <Execution id="acf51591-f2b0-4606-86be-48817888b3b4" />
+      <TestMethod codeBase="D:\a\1\s\CustomerOrderService.Tests\bin\release\netcoreapp3.1\CustomerOrderService.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CustomerOrderService.Tests.CustomerOrderServiceTests" name="When_PremiumCustomer_Expect_10PercentDiscount()" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f888732e-438e-5205-2fa5-7eb027409d12" executionId="acf51591-f2b0-4606-86be-48817888b3b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in D:\a\1\s\CustomerOrderService.Tests\bin\release\netcoreapp3.1\CustomerOrderService.Tests.dll&#xD;
+   NUnit3TestExecutor converted 1 of 1 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
