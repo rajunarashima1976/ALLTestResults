@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="ffed139c-2f38-4947-8bd2-3e86e0eaef24" name="VssAdministrator@WIN-M3S32NSN4OA 2020-07-31 15:55:08" runUser="WIN-M3S32NSN4OA\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2020-07-31T15:55:08.6696930+00:00" queuing="2020-07-31T15:55:08.6696931+00:00" start="2020-07-31T15:55:04.1338475+00:00" finish="2020-07-31T15:55:08.6894811+00:00" />
-  <TestSettings name="default" id="915f3ba7-707f-4d95-814f-f90875ea9891">
-    <Deployment runDeploymentRoot="VssAdministrator_WIN-M3S32NSN4OA_2020-07-31_15_55_08" />
+<TestRun id="f9b0dbe6-52b7-40ee-98f7-73e4a47bc54d" name="VssAdministrator@WIN-M3S32NSN4OA 2020-07-31 15:59:22" runUser="WIN-M3S32NSN4OA\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-07-31T15:59:22.0644624+00:00" queuing="2020-07-31T15:59:22.0644627+00:00" start="2020-07-31T15:59:17.4127777+00:00" finish="2020-07-31T15:59:22.1221927+00:00" />
+  <TestSettings name="default" id="a654913a-2b8e-4056-b502-2e7673b74fb9">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-M3S32NSN4OA_2020-07-31_15_59_22" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="7fe6a862-06a2-40f4-a455-bce30290a88b" testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-M3S32NSN4OA" duration="00:00:00.5551530" startTime="2020-07-31T15:55:07.0000000+00:00" endTime="2020-07-31T15:55:08.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fe6a862-06a2-40f4-a455-bce30290a88b" />
+    <UnitTestResult executionId="3b2bdf0f-2da7-41cc-83f1-9a889906b159" testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-M3S32NSN4OA" duration="00:00:00.5308400" startTime="2020-07-31T15:59:21.0000000+00:00" endTime="2020-07-31T15:59:21.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b2bdf0f-2da7-41cc-83f1-9a889906b159" />
   </Results>
   <TestDefinitions>
     <UnitTest name="Post_IsDemandNull_ReturnsFalse" storage="d:\a\1\s\samplecsprojecttest\bin\release\netcoreapp3.1\samplecsprojecttest.dll" id="b12ab4fb-57f2-6195-c907-d803e421cfd1">
-      <Execution id="7fe6a862-06a2-40f4-a455-bce30290a88b" />
+      <Execution id="3b2bdf0f-2da7-41cc-83f1-9a889906b159" />
       <TestMethod codeBase="D:\a\1\s\SampleCSProjectTest\bin\release\netcoreapp3.1\SampleCSProjectTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleCSProjectTest.DemandControllerTests" name="Post_IsDemandNull_ReturnsFalse" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" executionId="7fe6a862-06a2-40f4-a455-bce30290a88b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" executionId="3b2bdf0f-2da7-41cc-83f1-9a889906b159" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -33,7 +33,7 @@ NUnit Adapter 3.15.1.0: Test execution complete&#xD;
       <Collector agentName="WIN-M3S32NSN4OA" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
         <UriAttachments>
           <UriAttachment>
-            <A href="WIN-M3S32NSN4OA\VssAdministrator_WIN-M3S32NSN4OA_2020-07-31.15_55_04.coverage"></A>
+            <A href="WIN-M3S32NSN4OA\VssAdministrator_WIN-M3S32NSN4OA_2020-07-31.15_59_18.coverage"></A>
           </UriAttachment>
         </UriAttachments>
       </Collector>
