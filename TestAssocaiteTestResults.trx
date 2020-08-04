@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="9dac2e31-5c7e-47b7-98ca-1a385737fb92" name="VssAdministrator@WIN-DBHDR4VVAQB 2020-08-04 17:35:40" runUser="WIN-DBHDR4VVAQB\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2020-08-04T17:35:40.7588790+00:00" queuing="2020-08-04T17:35:40.7588793+00:00" start="2020-08-04T17:35:36.9697636+00:00" finish="2020-08-04T17:35:40.7790022+00:00" />
-  <TestSettings name="default" id="1b54810f-3d68-460d-8189-4b3293997cdd">
-    <Deployment runDeploymentRoot="VssAdministrator_WIN-DBHDR4VVAQB_2020-08-04_17_35_40" />
+<TestRun id="78985c3d-8bfd-4eaa-8287-5895396809b5" name="VssAdministrator@WIN-DBHDR4VVAQB 2020-08-04 18:02:04" runUser="WIN-DBHDR4VVAQB\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-08-04T18:02:04.8241477+00:00" queuing="2020-08-04T18:02:04.8241480+00:00" start="2020-08-04T18:02:00.5571348+00:00" finish="2020-08-04T18:02:04.8470510+00:00" />
+  <TestSettings name="default" id="c99fdcaa-2e6a-457e-a883-c24fead23137">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-DBHDR4VVAQB_2020-08-04_18_02_04" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="df06ca2b-8303-44ef-9bd9-03b999c1318d" testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-DBHDR4VVAQB" duration="00:00:00.4433410" startTime="2020-08-04T17:35:39.0000000+00:00" endTime="2020-08-04T17:35:40.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df06ca2b-8303-44ef-9bd9-03b999c1318d" />
+    <UnitTestResult executionId="d15eba2a-34cf-4ba8-9849-286cecf7b7d0" testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-DBHDR4VVAQB" duration="00:00:00.5046349" startTime="2020-08-04T18:02:03.0000000+00:00" endTime="2020-08-04T18:02:04.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d15eba2a-34cf-4ba8-9849-286cecf7b7d0" />
   </Results>
   <TestDefinitions>
     <UnitTest name="Post_IsDemandNull_ReturnsFalse" storage="d:\a\1\s\samplecsprojecttest\bin\release\netcoreapp3.1\samplecsprojecttest.dll" id="b12ab4fb-57f2-6195-c907-d803e421cfd1">
-      <Execution id="df06ca2b-8303-44ef-9bd9-03b999c1318d" />
+      <Execution id="d15eba2a-34cf-4ba8-9849-286cecf7b7d0" />
       <TestMethod codeBase="D:\a\1\s\SampleCSProjectTest\bin\release\netcoreapp3.1\SampleCSProjectTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleCSProjectTest.DemandControllerTests" name="Post_IsDemandNull_ReturnsFalse" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" executionId="df06ca2b-8303-44ef-9bd9-03b999c1318d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b12ab4fb-57f2-6195-c907-d803e421cfd1" executionId="d15eba2a-34cf-4ba8-9849-286cecf7b7d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -33,7 +33,7 @@ NUnit Adapter 3.15.1.0: Test execution complete&#xD;
       <Collector agentName="WIN-DBHDR4VVAQB" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
         <UriAttachments>
           <UriAttachment>
-            <A href="WIN-DBHDR4VVAQB\VssAdministrator_WIN-DBHDR4VVAQB_2020-08-04.17_35_37.coverage"></A>
+            <A href="WIN-DBHDR4VVAQB\VssAdministrator_WIN-DBHDR4VVAQB_2020-08-04.18_02_01.coverage"></A>
           </UriAttachment>
         </UriAttachments>
       </Collector>
