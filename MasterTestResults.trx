@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="c82b610b-b80e-4707-957d-9f08cce65217" name="VssAdministrator@WIN-9E7H9V9S7NI 2020-08-05 15:11:38" runUser="WIN-9E7H9V9S7NI\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2020-08-05T15:11:38.1864649+00:00" queuing="2020-08-05T15:11:38.1864652+00:00" start="2020-08-05T15:11:36.3706613+00:00" finish="2020-08-05T15:11:38.2113606+00:00" />
-  <TestSettings name="default" id="890df32a-9e21-402c-a2fc-63a5e68b37a6">
-    <Deployment runDeploymentRoot="VssAdministrator_WIN-9E7H9V9S7NI_2020-08-05_15_11_38" />
+<TestRun id="51d37c86-8940-4244-849a-45bf6d7249a0" name="VssAdministrator@WIN-9E7H9V9S7NI 2020-08-05 15:44:28" runUser="WIN-9E7H9V9S7NI\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-08-05T15:44:28.6103731+00:00" queuing="2020-08-05T15:44:28.6103734+00:00" start="2020-08-05T15:44:26.6767444+00:00" finish="2020-08-05T15:44:28.6337977+00:00" />
+  <TestSettings name="default" id="83b26bd4-eb58-4f4e-a43d-33fea77f5cc9">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-9E7H9V9S7NI_2020-08-05_15_44_28" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="c734a22e-e63a-4117-afaa-f932f41e7a9c" testId="c4aeef4d-0663-936d-acb4-8d69164735b9" testName="Post_IsDemandCreated_ReturnsTrue" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.0296210" startTime="2020-08-05T15:11:37.0000000+00:00" endTime="2020-08-05T15:11:37.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c734a22e-e63a-4117-afaa-f932f41e7a9c" />
-    <UnitTestResult executionId="f2cd1ad2-4922-4ae2-8e2f-e182e9ae2c23" testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.0042880" startTime="2020-08-05T15:11:37.0000000+00:00" endTime="2020-08-05T15:11:37.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2cd1ad2-4922-4ae2-8e2f-e182e9ae2c23" />
-    <UnitTestResult executionId="ef54402c-ca25-43aa-b46c-da9d50c528a9" testId="916c142e-bdfa-e46e-5ab9-50b2b2fe5a14" testName="Get_CreatedDemand_ReturnsListOfDemandResource" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.2293480" startTime="2020-08-05T15:11:37.0000000+00:00" endTime="2020-08-05T15:11:37.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef54402c-ca25-43aa-b46c-da9d50c528a9" />
+    <UnitTestResult executionId="b3b6708c-067f-49d9-a600-d6813da01777" testId="916c142e-bdfa-e46e-5ab9-50b2b2fe5a14" testName="Get_CreatedDemand_ReturnsListOfDemandResource" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.2436200" startTime="2020-08-05T15:44:28.0000000+00:00" endTime="2020-08-05T15:44:28.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3b6708c-067f-49d9-a600-d6813da01777" />
+    <UnitTestResult executionId="79886122-0ea7-408d-b907-7b9c70ae1af3" testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.0049020" startTime="2020-08-05T15:44:28.0000000+00:00" endTime="2020-08-05T15:44:28.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79886122-0ea7-408d-b907-7b9c70ae1af3" />
+    <UnitTestResult executionId="7beb8d3e-45fb-45b5-8e5f-cd230fb84998" testId="c4aeef4d-0663-936d-acb4-8d69164735b9" testName="Post_IsDemandCreated_ReturnsTrue" computerName="WIN-9E7H9V9S7NI" duration="00:00:00.0612190" startTime="2020-08-05T15:44:28.0000000+00:00" endTime="2020-08-05T15:44:28.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7beb8d3e-45fb-45b5-8e5f-cd230fb84998" />
   </Results>
   <TestDefinitions>
     <UnitTest name="Post_IsDemandCreated_ReturnsTrue" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="c4aeef4d-0663-936d-acb4-8d69164735b9">
-      <Execution id="c734a22e-e63a-4117-afaa-f932f41e7a9c" />
+      <Execution id="7beb8d3e-45fb-45b5-8e5f-cd230fb84998" />
       <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.DemandControllerTests" name="Post_IsDemandCreated_ReturnsTrue" />
     </UnitTest>
     <UnitTest name="Post_IsDemandNull_ReturnsFalse" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="cb3e492e-4c93-68d5-203b-6a28d2b1a949">
-      <Execution id="f2cd1ad2-4922-4ae2-8e2f-e182e9ae2c23" />
+      <Execution id="79886122-0ea7-408d-b907-7b9c70ae1af3" />
       <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.DemandControllerTests" name="Post_IsDemandNull_ReturnsFalse" />
     </UnitTest>
     <UnitTest name="Get_CreatedDemand_ReturnsListOfDemandResource" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="916c142e-bdfa-e46e-5ab9-50b2b2fe5a14">
-      <Execution id="ef54402c-ca25-43aa-b46c-da9d50c528a9" />
+      <Execution id="b3b6708c-067f-49d9-a600-d6813da01777" />
       <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.DemandControllerTests" name="Get_CreatedDemand_ReturnsListOfDemandResource" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="c4aeef4d-0663-936d-acb4-8d69164735b9" executionId="c734a22e-e63a-4117-afaa-f932f41e7a9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" executionId="f2cd1ad2-4922-4ae2-8e2f-e182e9ae2c23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="916c142e-bdfa-e46e-5ab9-50b2b2fe5a14" executionId="ef54402c-ca25-43aa-b46c-da9d50c528a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="916c142e-bdfa-e46e-5ab9-50b2b2fe5a14" executionId="b3b6708c-067f-49d9-a600-d6813da01777" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" executionId="79886122-0ea7-408d-b907-7b9c70ae1af3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4aeef4d-0663-936d-acb4-8d69164735b9" executionId="7beb8d3e-45fb-45b5-8e5f-cd230fb84998" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
