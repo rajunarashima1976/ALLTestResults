@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="83fd0b99-cad5-470e-acf1-b908e0aadcb5" name="VssAdministrator@WIN-S8L41H46HBP 2020-08-06 20:39:51" runUser="WIN-S8L41H46HBP\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-08-06T20:39:51.1822913+00:00" queuing="2020-08-06T20:39:51.1822916+00:00" start="2020-08-06T20:39:49.5202286+00:00" finish="2020-08-06T20:39:51.2082725+00:00" />
+  <TestSettings name="default" id="d1f79fa5-db9e-41e2-83c9-927efe311dd7">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-S8L41H46HBP_2020-08-06_20_39_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="15e6cec1-9ccb-4a05-91aa-d7676e68b23b" testId="e8be1150-b921-2789-9aa4-a2d6c8568c27" testName="GellAll_UserIsExist_ReturnsUserList" computerName="WIN-S8L41H46HBP" duration="00:00:00.0050800" startTime="2020-08-06T20:39:50.0000000+00:00" endTime="2020-08-06T20:39:50.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15e6cec1-9ccb-4a05-91aa-d7676e68b23b" />
+    <UnitTestResult executionId="3c557928-ae1f-424a-8314-415521d3bf1f" testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" testName="Post_IsDemandNull_ReturnsFalse" computerName="WIN-S8L41H46HBP" duration="00:00:00.2389620" startTime="2020-08-06T20:39:50.0000000+00:00" endTime="2020-08-06T20:39:50.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c557928-ae1f-424a-8314-415521d3bf1f" />
+    <UnitTestResult executionId="dd6ce508-1fed-4ae2-a10e-eae812035850" testId="85392f5b-1414-385e-ac97-8bb868467195" testName="Post_UserCredentialsIsNull_ReturnsBadRequest" computerName="WIN-S8L41H46HBP" duration="00:00:00.0021010" startTime="2020-08-06T20:39:50.0000000+00:00" endTime="2020-08-06T20:39:50.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd6ce508-1fed-4ae2-a10e-eae812035850" />
+    <UnitTestResult executionId="f70d6c6b-2cff-44d0-a89b-bed9c692b787" testId="e0cfddb0-b9b0-b12f-2d06-3b489e0e9736" testName="Authenticate_UserCredentialsIsCorrect_ReturnsToken" computerName="WIN-S8L41H46HBP" duration="00:00:00.0166050" startTime="2020-08-06T20:39:50.0000000+00:00" endTime="2020-08-06T20:39:50.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f70d6c6b-2cff-44d0-a89b-bed9c692b787" />
+    <UnitTestResult executionId="14843458-f2ca-404f-8b6b-482b53215a63" testId="a2cb0198-f924-42db-629a-5399feeff5b8" testName="Gell_UserIsExit_ReturnsMatchedUser" computerName="WIN-S8L41H46HBP" duration="00:00:00.0047910" startTime="2020-08-06T20:39:50.0000000+00:00" endTime="2020-08-06T20:39:50.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14843458-f2ca-404f-8b6b-482b53215a63" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Post_IsDemandNull_ReturnsFalse" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="cb3e492e-4c93-68d5-203b-6a28d2b1a949">
+      <Execution id="3c557928-ae1f-424a-8314-415521d3bf1f" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.DemandControllerTests" name="Post_IsDemandNull_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="Post_UserCredentialsIsNull_ReturnsBadRequest" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="85392f5b-1414-385e-ac97-8bb868467195">
+      <Execution id="dd6ce508-1fed-4ae2-a10e-eae812035850" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.UsersControllerTests" name="Post_UserCredentialsIsNull_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Gell_UserIsExit_ReturnsMatchedUser" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="a2cb0198-f924-42db-629a-5399feeff5b8">
+      <Execution id="14843458-f2ca-404f-8b6b-482b53215a63" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.UsersControllerTests" name="Gell_UserIsExit_ReturnsMatchedUser" />
+    </UnitTest>
+    <UnitTest name="Authenticate_UserCredentialsIsCorrect_ReturnsToken" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="e0cfddb0-b9b0-b12f-2d06-3b489e0e9736">
+      <Execution id="f70d6c6b-2cff-44d0-a89b-bed9c692b787" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.UsersControllerTests" name="Authenticate_UserCredentialsIsCorrect_ReturnsToken" />
+    </UnitTest>
+    <UnitTest name="GellAll_UserIsExist_ReturnsUserList" storage="d:\a\1\s\mastertestcode\samplemasterprojtest\bin\release\netcoreapp3.1\samplemasterprojtest.dll" id="e8be1150-b921-2789-9aa4-a2d6c8568c27">
+      <Execution id="15e6cec1-9ccb-4a05-91aa-d7676e68b23b" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterProjTest.UsersControllerTests" name="GellAll_UserIsExist_ReturnsUserList" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e8be1150-b921-2789-9aa4-a2d6c8568c27" executionId="15e6cec1-9ccb-4a05-91aa-d7676e68b23b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3e492e-4c93-68d5-203b-6a28d2b1a949" executionId="3c557928-ae1f-424a-8314-415521d3bf1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85392f5b-1414-385e-ac97-8bb868467195" executionId="dd6ce508-1fed-4ae2-a10e-eae812035850" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0cfddb0-b9b0-b12f-2d06-3b489e0e9736" executionId="f70d6c6b-2cff-44d0-a89b-bed9c692b787" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2cb0198-f924-42db-629a-5399feeff5b8" executionId="14843458-f2ca-404f-8b6b-482b53215a63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in D:\a\1\s\MasterTestCode\SampleMasterProjTest\bin\release\netcoreapp3.1\SampleMasterProjTest.dll&#xD;
+   NUnit3TestExecutor converted 5 of 5 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
