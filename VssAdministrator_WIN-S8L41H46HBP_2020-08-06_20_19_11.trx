@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e41f13b3-01e0-4c7f-a2a1-c75fe658b48e" name="VssAdministrator@WIN-S8L41H46HBP 2020-08-06 20:19:11" runUser="WIN-S8L41H46HBP\VssAdministrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-08-06T20:19:11.4851825+00:00" queuing="2020-08-06T20:19:11.4851827+00:00" start="2020-08-06T20:19:09.8691178+00:00" finish="2020-08-06T20:19:11.5032236+00:00" />
+  <TestSettings name="default" id="f7315adf-b776-4147-a2a2-507ba969686f">
+    <Deployment runDeploymentRoot="VssAdministrator_WIN-S8L41H46HBP_2020-08-06_20_19_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4a0729d1-67cb-40d1-986a-c686d44a8db0" testId="255b9f44-03cc-49e9-faa6-20a6256cb6d7" testName="Create_ReturnsAsActionResult_WithCreateDemandPage" computerName="WIN-S8L41H46HBP" duration="00:00:00.1742000" startTime="2020-08-06T20:19:11.0000000+00:00" endTime="2020-08-06T20:19:11.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a0729d1-67cb-40d1-986a-c686d44a8db0" />
+    <UnitTestResult executionId="5688a64b-17df-42d9-b163-4d5a255c4053" testId="369e88e4-e82a-d6e3-fdb0-70940b92f6a0" testName="Dashboard_ReturnsAsActionResult_WithDashboardPage" computerName="WIN-S8L41H46HBP" duration="00:00:00.0016410" startTime="2020-08-06T20:19:11.0000000+00:00" endTime="2020-08-06T20:19:11.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5688a64b-17df-42d9-b163-4d5a255c4053" />
+    <UnitTestResult executionId="56194b05-6d17-4aa0-a161-af043f8b028e" testId="3e9d81a9-2161-ffa7-4bb5-0e6cceafbb7f" testName="Index_ReturnsAsActionResult_WithLoginPage" computerName="WIN-S8L41H46HBP" duration="00:00:00.0024650" startTime="2020-08-06T20:19:11.0000000+00:00" endTime="2020-08-06T20:19:11.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56194b05-6d17-4aa0-a161-af043f8b028e" />
+    <UnitTestResult executionId="bf445ed0-ce43-4760-9b54-0e60e9bf2498" testId="188987af-fc24-3a25-baf2-185654e1a41b" testName="Dashboard_FailedToReturnsAsActionResult_WithoutDashboardPage" computerName="WIN-S8L41H46HBP" duration="00:00:00.0560630" startTime="2020-08-06T20:19:10.0000000+00:00" endTime="2020-08-06T20:19:11.0000000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf445ed0-ce43-4760-9b54-0e60e9bf2498" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Index_ReturnsAsActionResult_WithLoginPage" storage="d:\a\1\s\mastertestcode\samplemasterwebtest\bin\release\netcoreapp3.1\samplemasterwebtest.dll" id="3e9d81a9-2161-ffa7-4bb5-0e6cceafbb7f">
+      <Execution id="56194b05-6d17-4aa0-a161-af043f8b028e" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterWebTest\bin\release\netcoreapp3.1\SampleMasterWebTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterWebTest.LoginControllerTests" name="Index_ReturnsAsActionResult_WithLoginPage" />
+    </UnitTest>
+    <UnitTest name="Create_ReturnsAsActionResult_WithCreateDemandPage" storage="d:\a\1\s\mastertestcode\samplemasterwebtest\bin\release\netcoreapp3.1\samplemasterwebtest.dll" id="255b9f44-03cc-49e9-faa6-20a6256cb6d7">
+      <Execution id="4a0729d1-67cb-40d1-986a-c686d44a8db0" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterWebTest\bin\release\netcoreapp3.1\SampleMasterWebTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterWebTest.DemandControllerTests" name="Create_ReturnsAsActionResult_WithCreateDemandPage" />
+    </UnitTest>
+    <UnitTest name="Dashboard_ReturnsAsActionResult_WithDashboardPage" storage="d:\a\1\s\mastertestcode\samplemasterwebtest\bin\release\netcoreapp3.1\samplemasterwebtest.dll" id="369e88e4-e82a-d6e3-fdb0-70940b92f6a0">
+      <Execution id="5688a64b-17df-42d9-b163-4d5a255c4053" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterWebTest\bin\release\netcoreapp3.1\SampleMasterWebTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterWebTest.DashboardControllerTests" name="Dashboard_ReturnsAsActionResult_WithDashboardPage" />
+    </UnitTest>
+    <UnitTest name="Dashboard_FailedToReturnsAsActionResult_WithoutDashboardPage" storage="d:\a\1\s\mastertestcode\samplemasterwebtest\bin\release\netcoreapp3.1\samplemasterwebtest.dll" id="188987af-fc24-3a25-baf2-185654e1a41b">
+      <Execution id="bf445ed0-ce43-4760-9b54-0e60e9bf2498" />
+      <TestMethod codeBase="D:\a\1\s\MasterTestCode\SampleMasterWebTest\bin\release\netcoreapp3.1\SampleMasterWebTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="SampleMasterWebTest.DashboardControllerTests" name="Dashboard_FailedToReturnsAsActionResult_WithoutDashboardPage" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="255b9f44-03cc-49e9-faa6-20a6256cb6d7" executionId="4a0729d1-67cb-40d1-986a-c686d44a8db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="369e88e4-e82a-d6e3-fdb0-70940b92f6a0" executionId="5688a64b-17df-42d9-b163-4d5a255c4053" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e9d81a9-2161-ffa7-4bb5-0e6cceafbb7f" executionId="56194b05-6d17-4aa0-a161-af043f8b028e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="188987af-fc24-3a25-baf2-185654e1a41b" executionId="bf445ed0-ce43-4760-9b54-0e60e9bf2498" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in D:\a\1\s\MasterTestCode\SampleMasterWebTest\bin\release\netcoreapp3.1\SampleMasterWebTest.dll&#xD;
+   NUnit3TestExecutor converted 4 of 4 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
